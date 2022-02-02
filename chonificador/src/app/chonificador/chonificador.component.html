@@ -1,1 +1,29 @@
-<p>chonificador works!</p>
+<head>
+  <title> Escribs como si fuera una escoria social</title>
+</head>
+<body style="text-align: center;">
+
+  <table width="100%">
+    <tr>
+      <td> <img src="../../assets/fotoCani.png" alt="Primer Cani Verse" width="200" height="240"> </td>
+      <td>
+        <p>VivAh eSpaÑhA Bibah el REy VivA el oRdEn y la LeY</p>
+        <h2> El Chonificador</h2>
+        <form style="display: inline-block;">
+          <textarea id="texto" name="texto"  [(ngModel)] = 'val' rows="4" cols="50"></textarea>><br><br>
+          <input type="submit"  (click)="chonificar()" style="font-size: larger;" value="A Chonificar!!">
+        </form> 
+      </td>
+      <td><img src="../../assets/fotoCani.JPG" alt="Segundo blanco cani" width="200" height="240"></td>
+    </tr>
+  </table>
+
+  <div>
+    <p>
+      <strong>
+      {{response}}
+      </strong>
+    </p>
+
+  </div>
+</body>
